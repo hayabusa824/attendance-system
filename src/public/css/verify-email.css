@@ -1,0 +1,46 @@
+.container {
+    max-width: 720px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.btn {
+    width: 257px;
+    height: 69px;
+    margin: 50px auto;
+    background: #d9d9d9;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-link {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button {
+    color: #0073cc;
+    text-decoration: none;
+    background: white;
+    border: none;
+}
+
+.form_error {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 30px;
+    background: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}

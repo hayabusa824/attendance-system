@@ -1,0 +1,142 @@
+@media screen and (min-width: 1400px) and (max-width: 1540px) {
+    .container {
+        width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #fff;
+    }
+    .title {
+        width: 900px;
+        margin: 50px auto;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    .title {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        padding-left: 20px;
+        border-left: 8px solid #000;
+    }
+
+
+    .month-selector {
+        width: 900px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        color: #000;
+    }
+
+    .title-month {
+        display: flex;
+        align-items: center;
+    }
+
+    .month-label{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .title-icon {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    .btn-prev,
+    .btn-next {
+        font-weight: 700;
+    }
+
+    .btn {
+        padding: 4px 10px;
+        border-radius: 4px;
+        text-decoration: none;
+        color: #737373;
+    }
+
+    .attendance-table {
+        width: 900px;
+        border-collapse: collapse;
+        margin: 50px auto;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        color: #737373;
+    }
+
+    .attendance-table td:first-child,
+    .attendance-table th:first-child {
+        width: 250px;
+    }
+    .attendance-table td:last-child,
+    .attendance-table th:last-child {
+        width: 200px;
+    }
+
+    .table {
+        width: 100%;
+        height: 50px;
+        border-bottom: 3px solid #ddd;
+        border-width: none;
+    }
+
+    .table-row {
+        height: 50px;
+        letter-spacing: 2px;
+        border-bottom: 1px solid #ddd;
+    }
+    .detail-link {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .btn-submit {
+        width: 900px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .btn-submit button {
+        width: 130px;
+        height: 50px;
+        background: #000;
+        color: #fff;
+        border: none;
+        font-size: 22px;
+        font-weight: 700;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .tabs {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    }
+
+    .tab {
+        padding: 10px 20px;
+        font-weight: bold;
+        color: #777;
+        cursor: pointer;
+    }
+
+    .tab.active {
+        color: black;
+    }
+}

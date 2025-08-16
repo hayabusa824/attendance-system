@@ -1,0 +1,128 @@
+@media screen and (min-width: 1400px) and (max-width: 1540px) {
+    .container {
+        width:900px;
+        margin: 70px auto;
+    }
+
+    .title {
+        font-size: 30px;
+        font-weight: 700;
+        border-left: 8px solid #000;
+        padding-left: 10px;
+        margin-bottom: 50px;
+    }
+
+    .attendance-detail {
+        font-size: 16px;
+        font-weight: 700;
+        width: 900px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    .tr{
+        height: 90px;
+        border-bottom: 1px solid #ddd;
+    }
+    .tr-2{
+        height: 115px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .label {
+        font-weight: bold;
+        width: 30%;
+        padding-left: 70px;
+    }
+
+    .date{
+        padding-left: 20px;
+    }
+
+    .date-separator {
+        margin: 0 90px;
+        display: inline-block;
+    }
+
+    .inline-separator {
+        margin: 0 60px;
+    }
+
+    input[type="text"] {
+        padding: 6px 10px;
+        width: 103px;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+        letter-spacing: 2px;
+    }
+
+    textarea {
+        width: 316px;
+        height: 72px;
+        font-size: 16px;
+        font-weight: 700;
+        resize: none;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+    }
+
+    .btn-submit {
+        width: 900px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .btn-btn-primary {
+        width: 130px;
+        height: 50px;
+        background: #000;
+        color: #fff;
+        border: none;
+        font-size: 22px;
+        font-weight: 700;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .btn-btn-secondary {
+        width: 130px;
+        height: 50px;
+        background: #696969;
+        color: #fff;
+        border: none;
+        font-size: 22px;
+        font-weight: 700;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .error-messages {
+    color: red;
+    margin-bottom: 20px;
+    font-size: 14px;
+    }
+
+    .error-messages ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .error-messages li {
+        margin-bottom: 5px;
+    }
+
+    .text-danger {
+        width: 900px;
+        margin: 30 auto;
+        text-align: right;
+        color: red;
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: 2px;
+    }
+}
